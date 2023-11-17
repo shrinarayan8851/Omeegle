@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omeegle</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <img class="logo" src="img/omeegle.jpg" alt="">
+        <h2>Talk to stranger</h2>
+        <div class="online-status">5000+ online now</div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="video_chat_main_container">
+    <div class="video_chat_container">
+      <div class="video-tag-container">
+        <div class="videos">
+          <video src="" class="video-player" id="webcamVideo" autoplay="autoplay" playsinline="playsinline"></video>
+          <video src="" class="video-player" id="remoteVideo" style="border-top: 2px solid white;" autoplay="autoplay"
+            playsinline="playsinline"></video>
+        </div>
+      </div>
+      <div class="chat-container">
+        <div class="chat-text-contaier">
+          <p>You are now chatting with a random stranger</p>
+          <p>You both speak the same language - English</p>
+          <hr class="horizontal-divider">
+          <p class="chat-text-area"></p>
+        </div>
+        <div class="next-chat-container">
+          <div class="next-chat">
+            <div>Next</div>
+          </div>
+          <div class="type-message">
+            <textarea name="" , id="msg-input" cols="30" rows="5"></textarea>
+          </div>
+          <div class="msg-send-button">Send</div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!--
+
+    <h2>2. Create a new Call</h2>
+  <button id="callButton" disabled>Create Call (offer)</button>
+
+  <h2>3. Join a Call</h2>
+  <p>Answer the call from a different browser window or device</p>
+
+  <input id="callInput" />
+  <button id="answerButton" disabled>Answer</button>
+
+  <h2>4. Hangup</h2>
+
+  <button id="hangupButton" disabled>Hangup</button>
+  -->
+
+  <script type="module" src="/main.js"></script>
+
+</body>
+
+</html>
